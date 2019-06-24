@@ -5,6 +5,9 @@
 * [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
 <!-- default file list end -->
 # OBSOLETE: How to display an image in GridControl
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e3819)**
+<!-- run online end -->
 
 
 <p><strong>Starting with version 13.2, GridControl supports displaying images in the Image column out-of-the-box.</strong> </p>
