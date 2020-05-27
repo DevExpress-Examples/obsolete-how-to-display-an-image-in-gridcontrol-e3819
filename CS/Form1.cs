@@ -32,7 +32,10 @@ namespace WindowsApplication1
         {
             InitializeComponent();
             gridControl1.DataSource = CreateTable(20);
-            gridView1.Columns["Image"].ColumnEdit = new RepositoryItemPictureEdit();
+
+            RepositoryItemPictureEdit item = new RepositoryItemPictureEdit();
+            gridControl1.RepositoryItems.Add(item);
+            gridView1.Columns["Image"].ColumnEdit = item;
         }
     }
 }
