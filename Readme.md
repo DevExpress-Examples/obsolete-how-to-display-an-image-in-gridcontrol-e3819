@@ -1,3 +1,4 @@
+
 This example is obsolete. GridControl automatically displays images from the bound data source.
 
 
